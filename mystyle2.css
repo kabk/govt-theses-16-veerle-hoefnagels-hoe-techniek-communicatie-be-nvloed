@@ -1,0 +1,119 @@
+    *{
+    margin: 0 auto 0 auto;
+    text-align: left;
+    color: #ffffff;
+}
+
+body{
+    margin: 0;
+    text-align: left;
+    font-size: 13px;
+    font-family: arial, helvetica, sens-serif;
+    color: #ffffff;
+    width: 1200px;
+    height: auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.8);
+
+}
+
+.headertext{
+    margin-top: 15px;
+    text-align: center;
+}
+
+#title{     
+    font-size: 20px;
+    margin: 50px 0 30px 0;
+    width: 100%;
+    height: 80px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+#menubar{
+    margin-top: 10px;
+    float: left;
+    clear: both;
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    background: #white;
+    border-bottom: 2px solid #010000;
+}
+
+#menubar ul{
+    list-style: none;
+    margin: 0;
+    padding-top: 15px;
+    text-align: center;
+}
+
+#menubar ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 80px;
+}
+
+#menubar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#menubar ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+#container{
+    width: 1200px;
+    height: 1200px;
+}
+
+#leftmenu{
+    position: fixed;
+    margin-top: 223px;
+    margin-left: 50px;
+    padding-top: 20px;
+    float: left;
+    width: 160px;
+    height: 100%;
+    list-style: none;
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
+    border-left: 2px solid #010000;
+    border-right: 2px solid #010000;
+    border-bottom: 2px solid #010000;
+}
+
+#leftmenu ul li{
+    display: block;
+    padding-bottom: 20px;
+}
+
+#leftmenu ul li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+#leftmenu ul li a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+#content{
+    text-align: left;
+    margin-left: 100px;
+    width: 1000px;
+    padding-top: 250px;
+    padding-left: 160px;
+    color: #000000;
+}
