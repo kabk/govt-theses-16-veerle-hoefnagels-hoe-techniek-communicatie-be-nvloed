@@ -1,19 +1,184 @@
-CSS:
-body{
-margin: 0;
-font-family: Verdana, sans-serif;
-font-size: 0.8em;
+ul {
+    list-style-type: none;
+	margin: 0;
+	margin-top: -30px;
+	margin-left: -20px;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
 }
 
-div#header{
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100px;
-background-color: #CCC;
+li a {
+	text-size: 10px;
+    display: inline-block;
+	color: black;
+	line-height: 20px;
+	background:  #ffd633;
+    text-align: center;
+	margin-right: 10px;
+    text-decoration: none;
 }
 
-div#content{
-padding: 110px 20px 0 20px;
+div {
+	font-family: 'helvetica', serif;
+	font-size: 18px;
+	padding: 20px;
+	letter-spacing: 2px;
+	padding: 60px;
+	margin-left: 2cm;
+	width: 600px;
+	text-align: left;
 }
+	
+h1 {
+	font-family: 'helvetica';
+	font-weight: normal;
+	font-size: 50px;
+	position: center;
+	padding: 50px;
+	letter-spacing: 3px;
+	padding: 30px;
+	margin-left: 2cm;
+	width: 400px;
+	text-align: left;
+}
+
+a:link { 
+	font-weight: normal;
+	color: black;
+	text-decoration: none;
+}
+
+#inhoud {
+	font-family: 'playfair', serif;
+	font-weight: normal;
+	font-size: 80px;
+	line-height: 60px;
+	letter-spacing: -6px;
+	margin-top: 100px;
+	margin-left: 200px;
+	width: 1000px;
+	text-align: left;
+}
+
+#inhoud2 {
+	font-family: 'playfair', serif;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: -60px;
+	letter-spacing: -2px;
+	margin-top: -100px;
+	margin-left: 200px;
+	width: 1000px;
+	text-align: left;
+}
+
+#content {
+	font-family: 'helvetica'
+	font-size: 12px;
+	padding: 0px;
+	letter-spacing: 1px;
+	margin-left: 3cm;
+	margin-left: 260px;
+	width: 600px;
+	text-align: left;
+
+}
+
+#voetnoten {
+	font-family: 'Vollkorn', serif;
+	font-size: 20px;
+	padding: 100px;
+	letter-spacing: px;
+	padding: 10px;
+	margin-left: 40px;
+	width: 600px;
+	text-align: left;
+	z-index: 1;	
+}
+
+sup { 
+    line-height: 10pt;
+    font-size: smaller;
+}
+
+
+#title {
+		font-family: 'helvetica';
+		font-size: 100px;
+		padding: 100px;
+		letter-spacing: px;
+		padding: 30px;
+		margin-left: 40px;
+		margin-top: 3cm;
+		width: 600px;
+		text-align: left;	
+}
+
+#header{
+	font-family: helvetica;
+	position:fixed; /*zet header vast*/
+	top: 3px; /*plek header vanaf de bovenkant*/
+	left: -70px;
+	bottom:0;
+	width: auto;
+	height:3px;
+}
+
+#image{
+	position: fixed; /*zet header vast*/
+	top: -30px; /*plek header vanaf de bovenkant*/
+	float: center;
+	left: 100px;
+	bottom:0;
+	width: 50%;
+	height: auto;
+	z-index: -1;
+}
+
+#vertical{
+	position: fixed; /*zet header vast*/
+	writing-mode:tb-rl;
+	    -webkit-transform:rotate(90deg);
+	    -moz-transform:rotate(90deg);
+	    -o-transform: rotate(90deg);
+	    -ms-transform:rotate(90deg);
+	    transform: rotate(90deg);
+	    white-space:nowrap;
+	    font-size: 9px;
+		display:block;
+	    bottom:300px;
+	    width:20px;
+	    height:20px;
+		margin-left:-30px;
+}
+
+.makeMeDraggable1 { 
+		width: 250px;
+		height: 302px;
+		margin-left: auto;	
+		margin-right: auto;	
+		margin-top: 25px;	
+		margin-bottom: 25px;
+		background-image: url("images/image1.jpg");
+		background-repeat: no-repeat;
+		position: related;
+		cursor: pointer;
+		z-index: 0;
+		
+	 }
+
+.makeMeDraggable3 { 
+	 	width: 700px;
+	 	height: 500px;
+		float: left;
+	 	background-image: url("images/image3.jpg");
+	 	background-repeat: no-repeat;
+	 	position: related;
+	 	cursor: pointer;
+		
+	 	 }
+
+	
