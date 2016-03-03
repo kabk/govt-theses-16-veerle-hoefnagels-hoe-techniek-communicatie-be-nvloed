@@ -1,3 +1,5 @@
+@media print {
+    
     @font-face {
         font-family: "Yanone Kaffeesatz";
         src: url('fonts/YanoneKaffeesatz-Regular.otf');
@@ -18,8 +20,6 @@
       a:link {
         color: #007f00;
         text-decoration: none;
-        
-        
       }
       
       a:visited {
@@ -209,12 +209,8 @@
         padding: 10px;
       }
       
-      sup {
+      #sup {
           line-height: 10px;
-          font-size: 10px;
-          line-height: 90%;
-          font-variant: initials;
-
       }
       
       #right-sidebar {
@@ -625,3 +621,4 @@
       #navx li.sfhover {
         position: static;
       }
+      
