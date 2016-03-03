@@ -12,7 +12,19 @@
 	<meta property="dc:creator" content="Hoefnagels, Veerle"/>
 	<meta property="dc:created" content="2015-12-05T00:00:00Z" />
 	<meta property="dc:modified" content="2015-12-05T00:00:00Z" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
     <title>STEM TEGEN, STEM VOOR</title>
+    
+    <script type="text/javascript">
+    function printpdf() 
+    {
+    myWindow=window.open("pdfwebpage.html");
+    myWindow.close;  //optional, to close the new window as soon as it opens
+    //this ensures user doesn't have to close the pop-up manually
+    }
+    </script>
     
     <script type="text/javascript">
       (function() {
@@ -1710,7 +1722,7 @@ comments</a>
                 <h2 class='title'>PDF THESIS NL</h2>
                 <div class='widget-content'>
                   <img src="image06.jpg" width="50%" height="50%"/></br>
-                    <a href="">DOWNLOAD THE PDF</a></iframe>
+                    <a href="printpdf()">Click to Print the PDF</a>
                 </div>
                 <div class='clear'></div>
                 <span class='widget-item-control'>
@@ -1727,6 +1739,7 @@ comments</a>
                       <img src="image06.jpg" width="50%" height="50%"/></br>
                         <a href="">DOWNLOAD ABSTRACT</a></iframe>
                     </div>
+                    
                 <div class='widget-content'>
                 </div>
               </div>
