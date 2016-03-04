@@ -245,13 +245,33 @@
         line-height: 30px;
         color: #003f00;
       }
-      
+           
       h2 {
         margin: 0 0 .75em;
         font-family: arial;
         font-size: 15px;
         color: black;
       }
+      
+      
+      p {
+      float: left;
+      font-size: 13px;
+      line-height: 23px;
+      color: black;
+      padding: 0px 0px 12px 0px;
+      }
+      
+      h3 {
+      float: left;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 23px;
+      color: black;
+      padding: 0px 0px 12px 0px;
+      }
+      
+      
       /* Posts
 -----------------------------------------------
 */
