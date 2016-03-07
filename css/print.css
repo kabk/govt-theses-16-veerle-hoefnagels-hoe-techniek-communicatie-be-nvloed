@@ -1,5 +1,3 @@
-@media print {
-    
     @font-face {
         font-family: "Yanone Kaffeesatz";
         src: url('fonts/YanoneKaffeesatz-Regular.otf');
@@ -34,6 +32,23 @@
       
       a img {
         border-width: 0;
+      }
+      
+      h3{
+          font-size: 13px;
+          padding-right:10px;
+          line-height:15px;
+          
+      }
+      p {
+          font-size:10px;
+          line-height: 13px;
+          margin:0;
+          padding-right: 15px;
+      }
+      
+      .post-footer{
+          width: 100%;
       }
       /* Header
 -----------------------------------------------
@@ -117,10 +132,11 @@
 ----------------------------------------------- */
       
       #slider {
-        height: 320px;
-        overflow: hidden;
-        margin: 0 0 0px 5px;
-        width: 1010px;
+        display:none;
+      }
+      
+      .widget-content{
+          display:none;
       }
       
       .coin-slider {
@@ -173,7 +189,7 @@
 ----------------------------------------------- */
       
       #outer-wrapper {
-        width: 1020px;
+        width: 100%;
         margin: 0 auto;
         padding: 10px;
         text-align: left;
@@ -181,12 +197,12 @@
       }
       
       #left-container {
-        width: 1020px;
+        width: 100%;
         float: left;
       }
       
       #main-wrapper {
-        width: 616px;
+        width: 94%;
         float: left;
         word-wrap: break-word;
         /* fix for long text breaking sidebar float in IE */
@@ -194,13 +210,44 @@
         /* fix for long non-text content breaking IE sidebar float */
       }
       
+      img{
+          width: 100%;
+      }
+      .entry-content{
+          width: 100%;
+          padding-right: 30px;
+          
+      }
+      
+      .post-body{
+          width: 100%
+      }
+      post-title.entry-title{
+          width: 100%;
+      }
+      
+      .post.hentry{
+          width:100%;
+      }
+      
+      .widget.BlogArchive{
+          
+          height:500px;
+      }
+      
+      .widget.PageList{
+          display:none;
+      }
+      
+    
+      
       #sidebar-wrapper {
         width: 175px;
-        float: left;
         padding: 10px;
         word-wrap: break-word;
         /* fix for long text breaking sidebar float in IE */
         overflow: hidden;
+        clear:both;
         /* fix for long non-text content breaking IE sidebar float */
       }
       
@@ -214,6 +261,7 @@
       }
       
       #right-sidebar {
+          display:none;
         width: 188px;
         float: left;
         padding: 10px;
@@ -231,6 +279,24 @@
         background-color: #ffffff;
         float: left;
         padding: 3px;
+      }
+      
+      .post-outer{
+          width:100%;
+      }
+      
+      .post hentry{
+          width:100%;
+      }
+      
+      .widget.Translate{
+          display:none;
+      }
+      .widget.Followers{
+          display:none;
+      }
+      .widget.HTML{
+          display:none;
       }
       /* Headings
 ----------------------------------------------- */
@@ -484,13 +550,7 @@
       }
       
       #Menumainwrap {
-        background: #009966;
-        repeat-x scroll 0 0 #000000;
-        border-bottom: 1px solid #009966;
-        height: 4px;
-        width: 100%;
-        margin: 0;
-        padding-top: 0px;
+        display: none;
       }
       
       #NavbarMenux {
@@ -593,7 +653,8 @@
       }
       
       #navx li ul a {
-        width: 140px;
+          
+        width: 20px;
       }
       
       #navx li ul ul {
@@ -622,3 +683,16 @@
         position: static;
       }
       
+      #imagemobiel{
+          width: 83%;
+          padding: 10px;
+          clear:both;
+          background-color: white;
+      }
+      
+      #voetnootmobiel{
+          width: 83%;
+          padding: 10px;
+          clear:both;
+          background-color: white;
+      }
