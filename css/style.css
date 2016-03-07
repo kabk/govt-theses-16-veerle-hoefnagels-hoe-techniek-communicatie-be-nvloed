@@ -225,7 +225,7 @@
       }
       
       sup {
-          line-height: 10px;
+          line-height: 7px;
           font-size: 10px;
           line-height: 90%;
           font-variant: initials;
@@ -238,7 +238,6 @@
           font-color: red;
         
       }
-      
       
       #right-sidebar {
         width: 158px;
@@ -257,6 +256,7 @@
       #sidebar-right-col {
         background-color: #ffffff;
         float: left;
+        margin: 1px;
         padding: 3px;
       }
       
@@ -266,6 +266,10 @@
       
       .post hentry{
           width:100%;
+      }
+      
+      .HTML10{
+          left-margin: -2px;
       }
       /* Headings
 ----------------------------------------------- */
@@ -288,9 +292,10 @@
       p {
       float: left;
       font-size: 13px;
-      line-height: 23px;
+      line-height: 26px;
       color: black;
       padding: 0px 0px 10px 0px;
+      margin: 0 0 10px 0;
       }
       
       #p01 {
@@ -388,6 +393,10 @@
         float: left;
       }
       
+      #im1, im2, im3, im4, im5, im6, im7, im8 {
+          line-height: 9px;
+      }
+      
       .post blockquote {
         margin: 1em 20px;
       }
@@ -477,8 +486,12 @@
       }
       
       .sidebar .widget {
-        margin: 0 0 1.5em;
-        padding: 0 0 1.5em;
+        margin: 0 0 0em;
+        padding: 0 0 0em;
+      }
+      
+      .widget.HTML {
+          margin: 0 0 1.5 em;
       }
       
       .main .widget {
