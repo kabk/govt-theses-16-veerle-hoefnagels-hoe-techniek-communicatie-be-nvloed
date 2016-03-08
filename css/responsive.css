@@ -713,3 +713,7 @@
           clear:both;
           background-color: white;
       }
+      
+      #video {
+          display:none;
+      }
